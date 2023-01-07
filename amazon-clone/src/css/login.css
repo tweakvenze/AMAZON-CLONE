@@ -1,0 +1,60 @@
+.login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    justify-content: center;
+    background-color: white;
+}
+.login-amazon-icon{
+    object-fit: contain;
+    height: 70px;
+    width: 100px;
+    display: block;
+}
+.login{
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    width: 100%;
+    max-width: 350px;
+}
+.sign-in-heading{
+    margin: 0.5rem 0.5rem;
+}
+.label-email{
+    margin: 0.5rem 0.5rem;
+    font-weight: 600;
+}
+.text-email{
+    margin: 0rem 0.5rem;
+    height: 25px;
+    border: 2px solid black;
+}
+.label-password{
+    margin: 0.5rem 0.5rem;
+    font-weight: 600;
+}
+.text-password{
+    margin: 0rem 0.5rem;
+    height: 25px;
+    border: 2px solid black;
+}
+.sign-in-btn{
+    margin: 1.5rem 0.5rem;
+    background-color: #f0c14b;
+    padding: 7px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.privacy-notice-text{
+    margin: 0.5rem 0.5rem;
+}
+.create-new-account-btn{
+    margin: 0.5rem 0.5rem;
+    padding: 7px;
+    border-radius: 5px;
+}

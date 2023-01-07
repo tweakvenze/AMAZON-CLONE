@@ -1,0 +1,96 @@
+.checkout{
+    display: flex;
+    background-color: white;
+}
+@media screen and (max-width: 500px){
+    .checkout{
+        flex-direction: column;
+    }
+}
+.checkout-title{
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.checkout-title-image{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.checkout-left{
+    flex: 3;
+}
+.checkout-right{
+    flex: 1;
+}
+.subtotal-container{
+    background-color: #eaeded;
+    padding: 1rem;
+    margin: 1rem;
+}
+.total-price{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.checkout-button{
+    background-color: #f0c14b;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.4rem;
+    cursor: pointer;
+}
+.gift-label{
+    margin-left: 10px;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.checkout-product{
+    margin: 2rem 1rem;
+    padding: 1rem 1rem;
+    background-color: #eaeded;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.checkout-product-title{
+    font-weight: 700;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.checkout-product-price{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.checkout-product-info{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.checkout-product-image-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.checkout-product-image{
+    height: 200px;
+}
+.checkout-product-rating{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline;
+}
+.checkout-product-btn-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.checkout-product-remove-from-basket-btn{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: #febd69;
+    cursor: pointer;
+    font-weight: 700;
+}

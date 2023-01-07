@@ -1,0 +1,17 @@
+.orders-page{
+    background-color: white;
+}
+.orders-page h1{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.orders-product-container{
+    width: fit-content;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.orders-product-btn-container{
+    display: none;
+}

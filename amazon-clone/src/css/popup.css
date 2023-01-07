@@ -1,0 +1,28 @@
+.popup-active{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    transition: 800ms;
+}
+.popup-inactive{
+    position: fixed;
+    bottom: 0;
+    left: -100vw;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    transition: 800ms;
+}

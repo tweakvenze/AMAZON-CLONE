@@ -1,0 +1,87 @@
+.navbar{
+    display: flex;
+    height: 70px;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:  #131921;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+.navbar button{
+    background-color: transparent;
+    padding: 0px;
+    border: 0px;
+    cursor: pointer;
+    color: white;
+}
+.navbar-input{
+    flex: 1;
+    padding: 2px;
+    margin-left: 5px;
+    height: 20px;
+}
+@media screen and (max-width: 750px){
+   
+    /* if the screen is small we will only display the input element and search button*/
+    .navbar-option{
+        display: none;
+    }
+    .navbar-search-icon{
+        background-color: #FEBD69;
+        margin-right: 10px;  
+    }
+    
+    @media screen and (max-width: 450px){
+        .navbar{
+            height: 140px;
+        }
+        .navbar-input{
+            min-width: 250px;
+            padding: 2px;
+            margin-left: 5px;
+            height: 20px;
+        }
+    }
+    
+}
+.navbar-menu-icon{
+    color:white;
+    padding: 2px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.navbar-amazon-icon{
+    width: 90px;
+    object-fit: contain;
+    margin-top: 16px;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+.navbar-search-icon{
+    background-color: #FEBD69;  
+}
+.link{
+    text-decoration: none;
+}
+.navbar-option-container{
+    display: flex;
+    flex-direction: row;
+}
+.navbar-option{
+    color:white;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 2px;
+}
+.navbar-option-line-two{
+    font-weight: 700;
+}
+.options-shopping-cart-icon{
+    height: 20px;
+}
+.options-shopping-cart-quantity{
+    text-align: center;
+}

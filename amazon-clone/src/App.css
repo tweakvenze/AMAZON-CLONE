@@ -1,0 +1,19 @@
+.app{
+  background-color: #eaeded;
+  
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    height: fit-content;
+  }
+.home-page-container{
+  max-width: 1500px;
+  margin: auto;
+}  
+.checkout-page-container{
+  max-width: 1500px;
+  margin: auto;
+}
